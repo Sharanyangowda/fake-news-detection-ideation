@@ -1,46 +1,94 @@
 # fake-news-detection-ideation
 Fake News Detection Project 
 
-PROJECT TITLE: Fake News Detection using Deep Learning and Large Language Models
+PROJECT TITLE
 
-PROBLEM STATEMENT: Fake news is an act of sharing false news or spreading misleading news on the platform like social media and news website so it will be a great problem as the rumor is spread throughout the whole world. This problem has impacts on the general public, media, and governments as they can impact public opinions and create confusion. The reason why it is important to address this problem is that false news spreads much faster than real news and leads to very serious consequences.
+Fake News Detection using Deep Learning and Large Language Models
 
-My understanding of the problem: I noticed that fake news spread fast as everyone shares without proper verification. Nowadays everyone is sharing news without verifying it and leading to serious problems in the word. A news article is collected, and text features are extracted from it and the model predicts whether it is fake or real.
+PROBLEM STATEMENT
+Fake news refers to false or misleading information that spreads through social media and online platforms. The main problem is that people find it difficult to identify whether news is real or fake, and they often share it without verification. This affects the general public, media organizations, and even governments by creating confusion and influencing opinions. It is important to address this problem because fake news spreads faster than real news and can lead to serious consequences.
 
-Key issues identified: There is no good detection system Spread of fake news via social media Rumors spread quickly.
+MY UNDERSTANDING OF THE PROBLEM
+I understood that fake news spreads quickly mainly because people share information without checking its authenticity. Social media platforms make sharing very easy, which increases the spread of misinformation.
+Also, the problem is not only about detecting fake news but also about the lack of good quality data to train detection models. If the data is limited or unbalanced, the model may not perform well in real situations.
 
-Reasons for the existence of this problem: Easy to share information without verifying its authenticity. Limited availability of good datasets.
+KEY ISSUES IDENTIFIED
+* Difficulty in identifying whether news is real or fake
+* Rapid spread of fake news through social media
+* Lack of high-quality and balanced datasets
+* Fake news often looks similar to real news
 
-My assumptions: Better data improves accuracy of prediction. Advanced models are able to learn more about context.
+REASONS FOR THE EXISTENCE OF THIS PROBLEM
+* People share information without verifying it
+* Social media platforms encourage fast sharing
+* Limited availability of properly labeled datasets
+* Fake news is designed to look believable
 
-Research on Existing Solutions
+MY ASSUMPTIONS
+* Better quality data can improve model accuracy
+* Deep learning models can understand context better than traditional methods
+* Using LLM-generated data can improve dataset size and diversity
 
-Existing solutions or tools used: BERT-based models Large Language Models (LLMs - GPT, LLaMA) Deep learning
+RESEARCH ON EXISTING SOLUTIONS
+Existing solutions or tools used
 
-Observations: Deep learning models have better accuracy than traditional models. LLMs are powerful but need datasets.
+BERT based models
+Used for classifying news based on text understanding
 
-Limitations of existing solutions: Small and imbalanced datasets Struggle with noisy data.
+Large Language Models (GPT, LLaMA)
+Used for advanced text analysis and generation
 
-My identified gap (novelty):
+Deep learning models
+Used for improving accuracy in classification tasks
 
-Problem needs a solution: Effective dataset generation is needed for improvement of fake news detection problem. LLMs could help in generating the dataset.
+Observations
+* Deep learning models perform better than traditional models
+* LLMs can understand context better but need large datasets
 
-My idea:
+Limitations of existing solutions:
+* Small and imbalanced datasets
+* Poor performance on real-world data
+* Lack of explainability in predictions
 
-I propose improving detection of fake news with using LLMs for generating fake news data to enlarge datasets.
+MY IDENTIFIED GAP (NOVELTY)
 
-Approach:
+What is missing in current solutions
+Proper use of LLMs to improve dataset quality
 
-How I plan to tackle the problem: Use deep learning model for classifying articles. Use LLMs for creating synthetic data.
+What problem is not addressed effectively
+Data scarcity and imbalance in fake news datasets
 
-Potential Features: Detection and classification of news into fake or real categories Enlarging dataset with generated data
+MY IDEA
+I propose improving fake news detection by using Large Language Models to generate synthetic fake news data. This will help increase dataset size and improve the performance of deep learning models.
 
-Open questions and challenges:
+APPROAC
+How I plan to tackle the problem:
+* Use a deep learning model to classify news as fake or real
+* Use LLMs to generate additional fake news data
+* Combine original and generated data to improve accuracy
 
-How to ensure that generated data will be accurate? How many pieces of generated data will be enough?
+Potential Features
+* Detection of fake and real news
+* Improved dataset using generated data
+* Better accuracy using deep learning models
 
-What I learned:
+OPEN QUESTIONS AND CHALLENGES
+* How to ensure generated data is accurate and realistic?
+* What amount of generated data should be used?
+* How to avoid overfitting on synthetic data?
 
-Data-driven fake news detection requires large dataset. LLMs can not only predict but also generate data. Combination of approaches gives better results.
+WHAT I LEARNED
+* Fake news detection depends heavily on data quality
+* Deep learning models perform better for text analysis
+* LLMs can be used for both understanding and generating text
+* Combining different approaches can improve results
 
-Next steps (my plan): Conduct more research with mentor's feedback. Implement my solution step-by-step.
+NEXT STEPS (MY PLAN)
+* Do more research on datasets and models
+* Take feedback from mentors
+* Improve and refine the idea
+* Start exploring implementation
+
+
+ext:
+👉 I can prepare **perfect viva answers (top 10 questions your mam will ask)**
