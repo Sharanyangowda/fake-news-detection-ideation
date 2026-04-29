@@ -1,93 +1,27 @@
-# fake-news-detection-ideation
 Fake News Detection Project 
 
-PROJECT TITLE
+##Problem statement
+*Fake news  false or misleading content shared through social media and online platforms  poses a growing threat to public discourse. The core challenge is that most people cannot reliably distinguish real news from fabricated content, and social media's ease of sharing accelerates its spread. This affects individuals, media organizations, and governments alike, distorting public opinion and eroding trust. Addressing this problem is urgent: research shows that misinformation spreads significantly faster than accurate news, often with serious real-world consequences.
 
-Fake News Detection using Deep Learning and Large Language Models
+##Problem analysis
+*Fake news spreads rapidly because social media platforms are optimized for speed, not accuracy users share content before verifying it. However, the challenge extends beyond detection itself. A deeper bottleneck is the scarcity of high quality, well-labeled training data. Without balanced and representative datasets, even sophisticated models tend to fail in real world conditions.
 
-PROBLEM STATEMENT
-Fake news refers to false or misleading information that spreads through social media and online platforms. The main problem is that people find it difficult to identify whether news is real or fake, and they often share it without verification. This affects the general public, media organizations, and even governments by creating confusion and influencing opinions. It is important to address this problem because fake news spreads faster than real news and can lead to serious consequences.
+##Key issues identified
+*Reliable automated distinction between real and fake news remains unsolved
+*Social media platforms accelerate misinformation spread at scale
+*Existing datasets are often small, imbalanced, or poorly labeled
+*Fake news is deliberately crafted to resemble credible reporting
 
-MY UNDERSTANDING OF THE PROBLEM
-I understood that fake news spreads quickly mainly because people share information without checking its authenticity. Social media platforms make sharing very easy, which increases the spread of misinformation.
-Also, the problem is not only about detecting fake news but also about the lack of good quality data to train detection models. If the data is limited or unbalanced, the model may not perform well in real situations.
+##Proposed approach
+*This project proposes using Large Language Models (LLMs) to generate high quality synthetic training data, directly addressing the dataset scarcity problem. By combining LLM-generated samples with real world data, we aim to train deep learning classifiers that are more robust, better balanced, and more accurate in real world settings.
 
-KEY ISSUES IDENTIFIED
-* Difficulty in identifying whether news is real or fake
-* Rapid spread of fake news through social media
-* Lack of high-quality and balanced datasets
-* Fake news often looks similar to real news
+##Open questions and challenges
+*How can we verify that generated samples are realistic and diverse enough?
+*What is the optimal ratio of synthetic to real data for training?
+*How do we prevent models from overfitting to synthetic patterns?
 
-REASONS FOR THE EXISTENCE OF THIS PROBLEM
-* People share information without verifying it
-* Social media platforms encourage fast sharing
-* Limited availability of properly labeled datasets
-* Fake news is designed to look believable
-
-MY ASSUMPTIONS
-* Better quality data can improve model accuracy
-* Deep learning models can understand context better than traditional methods
-* Using LLM-generated data can improve dataset size and diversity
-
-RESEARCH ON EXISTING SOLUTIONS
-Existing solutions or tools used
-
-BERT based models
-Used for classifying news based on text understanding
-
-Large Language Models (GPT, LLaMA)
-Used for advanced text analysis and generation
-
-Deep learning models
-Used for improving accuracy in classification tasks
-
-Observations
-* Deep learning models perform better than traditional models
-* LLMs can understand context better but need large datasets
-
-Limitations of existing solutions:
-* Small and imbalanced datasets
-* Poor performance on real-world data
-* Lack of explainability in predictions
-
-MY IDENTIFIED GAP (NOVELTY)
-
-What is missing in current solutions
-Proper use of LLMs to improve dataset quality
-
-What problem is not addressed effectively
-Data scarcity and imbalance in fake news datasets
-
-MY IDEA
-I propose improving fake news detection by using Large Language Models to generate synthetic fake news data. This will help increase dataset size and improve the performance of deep learning models.
-
-APPROAC
-How I plan to tackle the problem:
-* Use a deep learning model to classify news as fake or real
-* Use LLMs to generate additional fake news data
-* Combine original and generated data to improve accuracy
-
-Potential Features
-* Detection of fake and real news
-* Improved dataset using generated data
-* Better accuracy using deep learning models
-
-OPEN QUESTIONS AND CHALLENGES
-* How to ensure generated data is accurate and realistic?
-* What amount of generated data should be used?
-* How to avoid overfitting on synthetic data?
-
-WHAT I LEARNED
-* Fake news detection depends heavily on data quality
-* Deep learning models perform better for text analysis
-* LLMs can be used for both understanding and generating text
-* Combining different approaches can improve results
-
-NEXT STEPS (MY PLAN)
-* Do more research on datasets and models
-* Take feedback from mentors
-* Improve and refine the idea
-* Start exploring implementation
-
-
-
+##Next steps
+*Survey existing datasets and benchmark models
+*Gather mentor feedback on the proposed novelty
+*Formalize the research gap and contribution statement
+*Begin prototyping the data generation pipeline
