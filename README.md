@@ -90,5 +90,4 @@ NEXT STEPS (MY PLAN)
 * Start exploring implementation
 
 
-ext:
-👉 I can prepare **perfect viva answers (top 10 questions your mam will ask)**
+
