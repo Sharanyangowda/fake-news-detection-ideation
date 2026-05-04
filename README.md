@@ -97,11 +97,12 @@ Common pattern across all solutions:They all depend on the quality and size of l
 
 ## How This Project Addresses the Gaps
 
-| Problem | Our Solution |
-| Not enough labeled data | Use LLM to generate high-quality synthetic data |
-| Imbalanced datasets | Generate balanced fake and real samples |
-| Models don't generalize | Combine synthetic + real data for better training |
-| Slow manual verification | Fully automated deep learning pipeline |
+| Problem                  | Our Solution                                      |
+|--------------------------|---------------------------------------------------|
+| Not enough labeled data  | Use LLM to generate high-quality synthetic data   |
+| Imbalanced datasets      | Generate balanced fake and real samples           |
+| Models don't generalize  | Combine synthetic + real data for better training |
+| Slow manual verification | Fully automated deep learning pipeline            |
 
 ## Open Questions
 
