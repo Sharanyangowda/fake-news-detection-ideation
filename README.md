@@ -82,6 +82,7 @@ Solution 3 — BERT-based Classifiers
 | Grover | AI Generation + Detection | Partially | Yes | High (on AI news) |
 | Manual Fact-Checking | Human Review | Yes | No | Very High |
 
+**Common pattern across all solutions:** They all depend on the quality and size of labeled data. None of them fully solve the data scarcity problem.
 Common pattern across all solutions:They all depend on the quality and size of labeled data. None of them fully solve the data scarcity problem.
 
 ## Limitations of Existing Solutions
