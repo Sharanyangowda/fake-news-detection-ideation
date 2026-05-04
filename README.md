@@ -75,12 +75,13 @@ Solution 3 — BERT-based Classifiers
 
 ## Comparative Analysis
 
-| Solution | Approach | Handles Real-World Data | Scalable | Accuracy |
-| LIAR + ML | Traditional ML | Partially | No | Medium |
-| FakeNewsNet | Dataset + Social Data | Yes | Partially | Medium |
-| BERT Classifier | Deep Learning | Yes | Partially | High |
-| Grover | AI Generation + Detection | Partially | Yes | High (on AI news) |
-| Manual Fact-Checking | Human Review | Yes | No | Very High |
+| Solution             | Approach                  | Handles Real-World Data | Scalable | Accuracy        |
+|----------------------|---------------------------|-------------------------|----------|-----------------|
+| LIAR + ML            | Traditional ML            | Partially               | No       | Medium          |
+| FakeNewsNet          | Dataset + Social Data     | Yes                     | Partially| Medium          |
+| BERT Classifier      | Deep Learning             | Yes                     | Partially| High            |
+| Grover               | AI Generation + Detection | Partially               | Yes      | High (AI news)  |
+| Manual Fact-Checking | Human Review              | Yes                     | No       | Very High       |
 
 **Common pattern across all solutions:** They all depend on the quality and size of labeled data. None of them fully solve the data scarcity problem.
 Common pattern across all solutions:They all depend on the quality and size of labeled data. None of them fully solve the data scarcity problem.
@@ -123,6 +124,7 @@ Common pattern across all solutions:They all depend on the quality and size of l
 - Model:BERT / LSTM
 - LLM for Data Generation:GPT / open-source alternatives
 - Dataset:LIAR, ISOT, FakeNewsNet
+
 
 
 
